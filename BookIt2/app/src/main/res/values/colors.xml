@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#3FAC39</color>
+    <color name="colorPrimaryDark">#101A59</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="allBooks">#b70e0e</color>
+    <color name="tbrBooks">#0eafb7</color>
+    <color name="Books">#0eafb7</color>
 </resources>

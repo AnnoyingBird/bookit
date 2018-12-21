@@ -6,4 +6,58 @@
     android:layout_height="match_parent"
     tools:context=".All">
 
+    <Button
+        android:id="@+id/all"
+        android:layout_width="200"
+        android:layout_height="50"
+        android:text="View All Books"
+        app:layout_constraintBottom_toTopOf="@+id/tbr"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/tbr"
+        android:layout_width="200"
+        android:layout_height="50"
+        android:text="View Unread Books"
+        app:layout_constraintBottom_toTopOf="@+id/read"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/all" />
+
+    <Button
+        android:id="@+id/lent"
+        android:layout_width="200"
+        android:layout_height="50"
+        android:text="View Lent Books"
+        app:layout_constraintBottom_toTopOf="@+id/borrowed"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/read" />
+
+    <Button
+        android:id="@+id/borrowed"
+        android:layout_width="200"
+        android:layout_height="50"
+        android:text="View Borrowed Books"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lent" />
+
+    <Button
+        android:id="@+id/read"
+        android:layout_width="200"
+        android:layout_height="50"
+        android:text="View Read Books"
+        app:layout_constraintBottom_toTopOf="@+id/lent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tbr" />
 </android.support.constraint.ConstraintLayout>
